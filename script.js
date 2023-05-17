@@ -31,5 +31,3 @@ const princessRespond = () => {
 
         document.getElementById('inputField').value = "";
 }
-
-// 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
