@@ -39,7 +39,7 @@ form {
     margin: 20px auto;
 }
 
-#inputField, #AIKey {
+#inputField, #AIKey, #customAgentInput {
     margin-bottom: 20px;
     width: 100%;
     font-size: 24px;
