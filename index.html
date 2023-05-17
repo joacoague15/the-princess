@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Princesa</title>
+</head>
+<body>
+    <div>
+        <img src="princesa.jpg" alt="princesa-img"/>
+        <form>
+            <input placeholder="API key" id="AIKey" type="text" name="ai-key" required>
+            <input placeholder="Prompt..." type="text" id="inputField" name="name" required>
+            <input id="btn" type="button" onclick="princessRespond()" class="btn-input" value="Send">
+        </form>
+        <div id="container">
+            <p id="user-message"></p>
+            <p id="response"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

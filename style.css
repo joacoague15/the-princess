@@ -1,0 +1,74 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+form {
+    width: 50%;
+    padding: 20px;
+}
+
+form {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.btn-input {
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#inputField, #AIKey {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 24px;
+}
+
+#response {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#user-message {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-align: left;
+    color: lightgray;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+#container {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
